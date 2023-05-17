@@ -1,0 +1,1 @@
+export const testMongoDBConnection = 'mongodb+srv://audition:HcNPY1RQjFOIvRiV@cluster0.dr4gta9.mongodb.net/?retryWrites=true&w=majority';
