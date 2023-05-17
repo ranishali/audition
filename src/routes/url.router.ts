@@ -22,7 +22,7 @@ export class UrlRouter implements IRouter {
             try {
                 const url = await this.urlController.getLongUrl(id);
                 if (url) {
-                    res.redirect(url);
+                    res.json(url);
                 } else {
                     res.status(404).send(`original url not found`);
                 }
