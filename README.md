@@ -76,6 +76,16 @@ from main level
 * [Typescript](https://www.typescriptlang.org/) - Javascript typed superset
 * [npm](https://www.npmjs.com/) - Package manager
 
+## Improvements
+This is a very simple url shortening service that can handle only 62^7 urls on a single server. 
+This can be easily scalable in future with different simple tech that can help achieve performance, scalability and cost
+e.g.
+  - cache
+  - horizontal/vertical scaling
+  - serverless/cloud
+  - load balancer
+  - etc.
+  
 ## Authors
 
 * **Ranish Ali**
